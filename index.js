@@ -33,6 +33,7 @@ const startSwitchColor = () => {
 const stopSwitchColor = () => {
   cheker = true;
   clearInterval(colorId);
+  
 };
 
 refs.btnStart.addEventListener('click', startSwitchColor);
